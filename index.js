@@ -1,3 +1,14 @@
+window.addEventListener("load",getlocation);
+    function getlocation(){
+        if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(showPosition);
+        }
+    }
+    function showPosition(position){
+        // x.innerHTMl="";
+    }
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 

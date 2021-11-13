@@ -313,7 +313,7 @@ h1{
 p{
  font-size: 18px;
   text-align: center;
-  line-height: 32px; 
+  line-height: 30px; 
   font-weight: lighter;
   padding-left: 25px ;
   padding-right: 35px;
@@ -645,4 +645,12 @@ vertical-align:top;
   font-size:70px;
   font-weight: 500;
   line-height: 45px;
+}
+
+/* media queries for grid part  */
+@media screen and (min-width: 0px) and (max-width:991px){
+  #imgTxtDiv{
+    display:grid;
+    grid-template-columns: 90% ;
+  }
 }
